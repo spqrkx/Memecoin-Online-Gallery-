@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memecoin Gallery</title>
+  <link rel="stylesheet" href="merged.css">
+  <script src="popup.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="header">
+    <nav>
+      
+        <a href="landingpage1.HTML"><img src="c:\Users\Jun Gonzales\OneDrive\Pictures\meme-meme-logo.png" alt="Logo" style="width: 100px; height: auto;"></a>
+        
+             <div class="nav-links">
+                <ul>
+                    <li><a href="landingpage1.HTML">HOME</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                </ul>
+
+            </div>
+    </nav>
+  <div class="grid-container">
+    <div class="product-card">
+      <img src="Imahe\cateshiba.png" alt="Cate Shiba">
+      <h3>Cate Shiba</h3>
+      <p class="price">$0.000001</p>
+      <p class="description" style="display: none;">This memecoin is currently waiting airdrop, however, this coin has many holders awaiting its proper pricing.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: Anonymous</li>
+        <li>Market Cap: Undefined</li>
+        <li>Currently Awaiting Airdrop</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'Cate Shiba', 'cateshiba.png', '$0.000001'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\flokiv2.jpg" alt="Floki Inu V2">
+      <h3>Floki Inu V2</h3>
+      <p class="price">$0.00000</p>
+      <p class="description" style="display: none;">This coin is inspired by the first version and is currently awaiting airdrop.</p>
+
+      <ul class="features" style="display: none;">
+        <li>Creator: Anonymous</li>
+        <li>Market Cap: Undefined</li>
+        <li>Currently Awaiting Airdrop</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'Floki V2', 'flokiv2.jpg', '$0.00000'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\dogezilla.jpg" alt="Dogezilla">
+      <h3>Dogezilla</h3>
+      <p class="price">$0.071854</p>
+      <p class="description" style="display: none;">DogeZilla is a community-driven cryptocurrency project aiming to revolutionize the crypto space by offering a next-generation Web 3.0 DeFi wallet and a multichain swap, while also focusing on reducing scams and verifying projects.</p>
+
+      <ul class="features" style="display: none;">
+        <li>Creator: "9ZEROES"</li>
+        <li>Market Cap: $580.45</li>
+        <li>Reducing Scams</li>
+        <li>DogeZilla Vault</li>  
+        <li>Community Driven</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'Dogezilla', 'dogezilla.jpg', '$0.071854'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\pepe2.0.png" alt="Pepe 2.0">
+      <h3>Pepe 2.0</h3>
+      <p class="price">$0.0071203</p>
+      <p class="description" style="display: none;">Pepe 2.0 is a meme coin on the Ethereum blockchain, aiming to provide utility, strong branding, and extensive outreach, with a circulating supply of 469,000 billion PEPE2.0 tokens.</p>
+
+      <ul class="features" style="display: none;">
+        <li>Creator: Anonymous</li>
+        <li>Market Cap: $5,610,000</li>
+        <li>Ethereum Blockchain</li>
+        <li>Community Development</li>
+        <li>Liquidity Pool Support</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'Pepe 2.0', 'pepe2.0.jpg', '$0.0071203'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\wojak.png" alt="Wojak">
+      <h3>Wojak</h3>
+      <p class="price">$0.0002664</p>
+      <p class="description" style="display: none;">Wojak is aiming to educate users bout cryptocurrency risk management and trading, while also allowing token holders to pay transaction fees and incentivize participation.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: "Wojak"</li>
+        <li>Market Cap: $18,490,000</li>
+        <li>Education and Risk Management</li>
+        <li>Charity Token</li>
+        <li>community-driven Ecosystem</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'Wojak', 'wojak.jpg', '$0.0002664'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\mongcoin.jpg" alt="MongCoin">
+      <h3>MongCoin</h3>
+      <p class="price">$0.0083113</p>
+      <p class="description" style="display: none;">A memecoin launched on the Ethereum blockchain, inspired by a meme and movement originating from the unconventional remarks of a U.S. congressman, designed for entertainment and community engagement, carrying no inherent value or promise of financial gain.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: Anonymous</li>
+        <li>Market Cap: $1,180,000</li>
+        <li>Communirt Focus</li>
+        <li>"Immortal" Nature</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'MongCoin', 'mongcoin.jpg', '$0.0083113'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\pepedoge.jpg" alt="Pepe Doge">
+      <h3>Pepe Doge</h3>
+      <p class="price">$0.053309</p>
+      <p class="description" style="display: none;">Pepe Doge is a cryptocurrency project that aims to revive the popularity of dog coins in the crypto market. The project is centered around the memeable and beloved character of Pepe the Frog, and seeks to make dogs great again in the crypto world.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: Anonymous</li>
+        <li>Market Cap: Undefined</li>
+        <li>Zero Taxes</li>
+        <li>No Presale</li>
+        <li>Locked and Burned Liquidity Pool</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'Pepe Doge', 'pepedoge.jpg', '$0.053309'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\kangal.jpg" alt="Kangal">
+      <h3>Kangal</h3>
+      <p class="price">$0.00000166</p>
+      <p class="description" style="display: none;">KANGAL is the governance and value token of the Kangal dApps ecosystem. Kangal is named after a breed of Anatolian Shepherd dogs of the same name, which defends herds from predators for many centuries.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: Anonymous</li>
+        <li>Market Cap: $125,854</li>
+        <li>ERC-20 Token</li>
+        <li>Token Approval Beta</li>
+        <li>Community Support</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'Kangal', 'kangal.jpg', '$0.00000166'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\feg.png" alt="Feg">
+      <h3>FEG Token</h3>
+      <p class="price">$0.00008872</p>
+      <p class="description" style="display: none;">FEG is a decentralized transaction network and governance token operating on both Ethereum and Binance Smart Chain, designed to reshape decentralized finance with features like a FEG Exchange and fWraps, while also incorporating Smart DeFi to improve efficiency.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: Anonymous</li>
+        <li>Market Cap: $8,647,026</li>
+        <li>Decentralized Transaction Network</li>
+        <li>Hyper-Deflationary</li>
+        <li>Community-Driven</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'FEG Token', 'feg.png', '$0.00008872'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\babydogezilla.png" alt="BabyDogeZilla">
+      <h3>BabyDogeZilla</h3>
+      <p class="price">$0.0000</p>
+      <p class="description" style="display: none;">An upcoming memecoin, currently waiting for airdrop.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: Anonymous</li>
+        <li>Market Cap: Undefined</li>
+        <li>Currently Awaiting Airdrop</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'BabyDogeZilla', 'babydogezilla.png', '$0.00001'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\banano.jpg" alt="Banano">
+      <h3>Banano</h3>
+      <p class="price">$0.001818</p>
+      <p class="description" style="display: none;">Banano is a meme token created through a hard fork of Nano (XNO). It offers feeless and instant transactions using Directed Acyclic Graph (DAG) technology, making it suitable for small transactions and micro-payments.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: DAG Technology</li>
+        <li>Market Cap: $2,920,000</li>
+        <li>Instant and Feeless Transactions</li>
+        <li>Community Focus</li>
+        <li>Educational Emphasis</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'Banano', 'banano.jpg', '$0.001818'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\dogegf.png" alt="DogeGF">
+      <h3>DogeGF</h3>
+      <p class="price">$0.0107532</p>
+      <p class="description" style="display: none;">DogeGF is an innovative blockchain meme project that stands at the crossroads of cryptocurrency and community spirit.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: Anonymous</li>
+        <li>Market Cap: $2,050,000</li>
+        <li>Reciprocity Focus</li>
+        <li>Community-Driven</li>
+        <li>Blockchain Technology</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'DogeGF', 'dogegf.png', '$0.0107357'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\pepetrump.png" alt="Pepe Trump">
+      <h3>Pepe Trump</h3>
+      <p class="price">$0.000614</p>
+      <p class="description" style="display: none;">"Pepe Trump" combines Donald Trump with the meme Pepe the Frog. Originating from Matt Furie's comic, Pepe became an online hit and was embraced by Trump supporters in the 2016 election, often shown in a "Make America Great Again" hat. This project symbolizes the internet's quickly, controversial support for Trump.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: Anonymous</li>
+        <li>Market Cap: $607,519</li>
+        <li>Created to Support Trump</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'Pepe Trump', 'pepetrump.png', '$0.000614'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\chadcoin.png" alt="Chad Coin">
+      <h3>Chad Coin</h3>
+      <p class="price">$0.051405</p>
+      <p class="description" style="display: none;">Chad Coin is a cryptocurrency, a digital asset that operates on the Ethereum blockchain, and is not tradable on Coinbase.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: Satoshi Nakamoto</li>
+        <li>Market Cap: $330,181</li>
+        <li>Recurring Buys</li>
+        <li>Margin Trading</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'Chad Coin', 'chadcoin.png', '$0.051405'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\shibelon.png" alt="ShibElon">
+      <h3>ShibElon</h3>
+      <p class="price">$0.061035</p>
+      <p class="description" style="display: none;">ShibElon is a cryptocurrency token tradable on platforms like Coinbase Wallet, with a current price of around $0.00000010 and a total supply of 1 trillion tokens.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: Anonymous</li>
+        <li>Market Cap: Undefined</li>
+        <li>Etherscan</li>
+        <li>Cross-Chain Integration</li>
+        <li>Decentralized</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'ShibElon', 'shibelon.png', '$0.061035'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\dogewarrior.jpg" alt="DogeWarrior">
+      <h3>DogeWarrior</h3>
+      <p class="price">$0.00000</p>
+      <p class="description" style="display: none ;">This memecoin is still awaiting its airdrop</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: Anonymous</li>
+        <li>Market Cap: Undefined</li>
+        <li>Awaiting Airdrop</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'DogeWarrior', 'dogewarrior.jpg', '$0.003188'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\pope.jpg" alt="PopeCoin">
+      <h3>PopeCoin</h3>
+      <p class="price">$0.179</p>
+      <p class="description" style="display: none;">PopeCoin s a cryptocurrency with a current price of €0.17, a 24-hour trading volume of €1.824K, and a circulating supply of 0 POPE, resulting in a total market cap of €0.00.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: "Mr. Watamabe"</li>
+        <li>Market Cap:  Undefined</li>
+        <li>Innovative</li>
+        <li>Meme Cryptocurrency</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'PopeCoin', 'pope.jpg', '$0.179'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\ninjafloki.jpg" alt="NinjaFloki">
+      <h3>NinjaFloki</h3>
+      <p class="price">$0.0000</p>
+      <p class="description" style="display: none;">Ninja Floki is awaiting airdrop and is not priced yet.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: Anonymous</li>
+        <li>Market Cap:  Undefined</li>
+        <li>Awaiting Airdrop</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'NinjaFloki', 'ninjafloki.jpg', '$0.0000'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\pepecash.png" alt="PepeCash">
+      <h3>PepeCash</h3>
+      <p class="price">$0.0104304</p>
+      <p class="description" style="display: none;">Pepe Cash is a digital asset, or cryptocurrency, inspired by the popular internet meme Pepe the Frog.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: Anonymous</li>
+        <li>Market Cap: Undefined</li>
+        <li>Counterparty Blockchain</li>
+        <li>ERC-20 Token</li>
+        <li>Redistribution System</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'PepeCash', 'pepecash.png', '$0.0104304'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\samo.jpg" alt="SamoyedCoin">
+      <h3>SamoyedCoin</h3>
+      <p class="price">$0.003149</p>
+      <p class="description" style="display: none;">SamoyedCoin is a meme token on the Solana blockchain, aiming to be the premier community token and symbol of the Solana ecosystem, focusing on onboarding new users, educating participants, and building a community around Solana and crypto.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: Anatoly Yakovenko</li>
+        <li>Market Cap: $14,936,438</li>
+        <li>Community Focus</li>
+        <li>Onboarding and Education</li>
+        <li>Memes and Engagement</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'SamoyedCoin', 'samo.jpg', '$0.003149'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+    
+  </div>
+
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <span class="close">&times;</span>
+      <h2 id="popup-title"></h2>
+      <img id="popup-image" src="" alt="MemeCoin">
+      <p id="popup-price"></p>
+      <p id="popup-description"></p>
+
+      <ul id="popup-features"></ul>
+    </div>
+  </div>
+
+  <div class="pagination">
+    <a href="WebTechProjpg1allProd.html">1</a>
+    <a href="WebTechProjpg2allProd.html">2</a>
+    <a href="WebTechProjpg3allProd.html">3</a>
+    <a href="WebTechProjpg4allProd.html">4</a>
+    <a href="WebTechProjpg5allProd.html">5</a>
+  </div>
+
+  <script>
+    function shareProduct(event, name, image, price) {
+      event.stopPropagation();
+      const url = window.location.href;
+      const shareText = `Check out this product: ${name} - ${price}. ${url}`;
+      if (navigator.share) {
+        navigator.share({
+          title: name,
+          text: shareText,
+          url: url
+        }).catch(console.error);
+      } else {
+        const tempInput = document.createElement('input');
+        document.body.appendChild(tempInput);
+        tempInput.value = shareText;
+        tempInput.select();
+        document.execCommand('copy');
+        document.body.removeChild(tempInput);
+        alert('Link copied to clipboard');
+      }
+    }
+
+    function sharePopupProduct() {
+      const name = document.getElementById('popup-title').innerText;
+      const price = document.getElementById('popup-price').innerText;
+      const url = window.location.href;
+      const shareText = `Check out this product: ${name} - ${price}. ${url}`;
+      if (navigator.share) {
+        navigator.share({
+          title: name,
+          text: shareText,
+          url: url
+        }).catch(console.error);
+      } else {
+        const tempInput = document.createElement('input');
+        document.body.appendChild(tempInput);
+        tempInput.value = shareText;
+        tempInput.select();
+        document.execCommand('copy');
+        document.body.removeChild(tempInput);
+        alert('Link copied to clipboard');
+      }
+    }
+  </script>
+</body>
+</html>

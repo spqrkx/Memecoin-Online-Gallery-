@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memecoin Gallery</title>
+  <link rel="stylesheet" href="merged.css">
+  <script src="popup.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="header">
+    <nav>
+      
+        <a href="landingpage1.HTML"><img src="c:\Users\Jun Gonzales\OneDrive\Pictures\meme-meme-logo.png" alt="Logo" style="width: 100px; height: auto;"></a>
+        
+             <div class="nav-links">
+                <ul>
+                    <li><a href="landingpage1.HTML">HOME</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                </ul>
+
+            </div>
+    </nav>
+  <div class="grid-container">
+    <div class="product-card">
+      <img src="dogecoin.jpg" alt="Dogecoin">
+      <h3>Dogecoin</h3>
+      <p class="price">$0.264454</p>
+      <p class="description" style="display: none;">Dogecoin is the OG memecoin started as a joke in 2013.<br>
+        Dogecoin was created by software engineers Billy Markus and Jackson Palmer in December 2013 using open-source code.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: Billy Markus</li>
+        <li>Market Cap: $37,834,539,641</li>
+        <li>Large Community</li>
+        <li>No Maximum Supply</li>
+        <li>Fast transaction</li>
+        <li>Decentralized</li>
+        <li>Highly Inflationary</li>
+        <li>Low fees</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'Dogecoin', 'dogecoin.jpg', '$0.264454'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="pepecoin.jpg" alt="Pepecoin">
+      <h3>Pepecoin</h3>
+      <p class="price">$0.00000989</p>
+      <p class="description" style="display: none;">Inspire by the "Pepe the Frog" meme, PEPE aims to be the most memeable memecoin.</p>
+
+      <ul class="features" style="display: none;">
+        <li>Creator: Anonymous</li>
+        <li>Market Cap: $3,750,000,000</li>
+        <li>Rapid Viral Growth</li>
+        <li>Deflationary Mechanism</li>
+        <li>Redistribution System</li>
+        <li>No-tax Policy</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'Pepecoin', 'pepecoin.jpg', '$0.00000989'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="shiba.jpg" alt="Shiba">
+      <h3>Shiba Inu</h3>
+      <p class="price">$0.000001474</p>
+      <p class="description" style="display: none;">Dubbed the "Dogecoin Killer", Shiba Inu was introduced in 2020, drawing inspiration from the Shiba Inu dog breed.</p>
+
+      <ul class="features" style="display: none;">
+        <li>Creator: "Ryoshi"</li>
+        <li>Market Cap: $8,680,000,000</li>
+        <li>Dogecoin Alternative</li>
+        <li>Ethereum Based</li>
+        <li>Large Token Supply</li>
+        <li>Community Driven</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'Shiba Inu', 'shiba.jpg', '$0.000001474'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="floki.jpg" alt="Floki">
+      <h3>Floki</h3>
+      <p class="price">$0.00006007</p>
+      <p class="description" style="display: none;">Floki is both a utility token and the people's cryptocurrency of the Floki ecosystem. Inspired by Shiba Inu token.</p>
+
+      <ul class="features" style="display: none;">
+        <li>Creator: B, PetaByte Capital, Sabre, MrBrown Whale</li>
+        <li>Market Cap: $685,606,697</li>
+        <li>Utility Token</li>
+        <li>Community Driven</li>
+        <li>DAO Governed</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'Floki', 'floki.jpg', '$0.00006007'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\trump.jpg" alt="Trump">
+      <h3>Official Trump</h3>
+      <p class="price">$15.11</p>
+      <p class="description" style="display: none;">A memecoin themed around former U.S. President Donald Trump, reflecting his persona and influence.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: CIC Digital</li>
+        <li>Market Cap: $778,157,514</li>
+        <li>High Volatility</li>
+        <li>Significant Media Attention</li>
+        <li>Large Following Certain Political Groups</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'Official Trump', 'trump.jpg', '$15.11'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\bonk.jpg" alt="Bonk">
+      <h3>Bonk</h3>
+      <p class="price">$0.000001483</p>
+      <p class="description" style="display: none;">A memecoin that gained popularity for its community-driven approach and playful branding.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: Anonymous</li>
+        <li>Market Cap: $116,889,182</li>
+        <li>High Supply</li>
+        <li>Active Community Engagement</li>
+        <li>Frequent Social Media Promotions</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'Bonk', 'bonk.jpg', '$0.000001483'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\dogelon.jpg" alt="Dogelon Mars">
+      <h3>Dogelon Mars</h3>
+      <p class="price">$0.0000003</p>
+      <p class="description" style="display: none;">A memecoin that pays homage to Elon Musk and his vision for Mars Exploration.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: Anonymous</li>
+        <li>Market Cap: $83,042,387</li>
+        <li>ERC-20 Token</li>
+        <li>Uniswap Trading</li>
+        <li>Planned Governance Token</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'Dogelon Mars', 'dogelon.jpg', '$0.0000003'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\bome.jpg" alt="Bome">
+      <h3>Bome</h3>
+      <p class="price">$0.0025</p>
+      <p class="description" style="display: none;">An experimental project aiming to preserve and promote meme culture by immortalizing memes on blockchain.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: Anonymous</li>
+        <li>Market Cap: $92,902,664</li>
+        <li>Access Exclusive Meme Content</li>
+        <li>Participate in Contests</li>
+        <li>Earn Rewards</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'Bome', 'bome.jpg', '$0.0025'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\opti.jpg" alt="Optimus Ai">
+      <h3>Optimus Ai</h3>
+      <p class="price">$0.075</p>
+      <p class="description" style="display: none;">A unique memecoin project focused on building the largest AI community in Web3 and supporting AI option.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: Anonymous</li>
+        <li>Market Cap: $11940.91</li>
+        <li>AI development</li>
+        <li>AI powered</li>
+        <li>Built around Elon Musk's Optimus Robot</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'Optimus Ai', 'opti.jpg', '$0.075'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\neiro.jpg" alt="Neiro">
+      <h3>Neiro</h3>
+      <p class="price">$0.00001</p>
+      <p class="description" style="display: none;">Inspired by Neiro, a Shiba Inu owned by Atsuko Sato, owner of Kabuso - the original Dogecoin Dog.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: Anonymous</li>
+        <li>Market Cap: $36,396,268</li>
+        <li>Zero Transaction Fees</li>
+        <li>Smart Contract Integration</li>
+        <li>Staking Mechanism</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'Neiro', 'neiro.jpg', '$0.00001'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\mog.jpg" alt="Mog">
+      <h3>Mog</h3>
+      <p class="price">$0.000009</p>
+      <p class="description" style="display: none;">Mog Coin made headlines with a dramatic price surge of 2000x within 48 hours of its launch in July 2023.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: Anonymous</li>
+        <li>Market Cap: $208,333,722</li>
+        <li>Memecoins Focus</li>
+        <li>Community Driven Ethos</li>
+        <li>Decentralized Origin</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'Mog', 'mog.jpg', '$0.000009'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\dogwifhat.jpg" alt="Dogwifhat">
+      <h3>Dogwifhat</h3>
+      <p class="price">$0.000002</p>
+      <p class="description" style="display: none;">Dogwifhat or WIF emerged into cryptocurrency scene in November 2023, quickly becoming a standout memecoin on Solana blockchain.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: Anonymous</li>
+        <li>Market Cap: $538,009,700</li>
+        <li>Low-Cost Transactions</li>
+        <li>High Short-Term Returns</li>
+        <li>No Extra Taxes</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'Dogwifhat', 'dogwifhat.jpg', '$0.000002'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\brett.jpg" alt="Brett">
+      <h3>Brett</h3>
+      <p class="price">$0.02984</p>
+      <p class="description" style="display: none;">It is a meme-inspired cryptocurrency that operates on the Base blockchain.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: Anonymous</li>
+        <li>Market Cap: $369,063,034</li>
+        <li>Trading</li>
+        <li>Cheap Transactions</li>
+        <li>Digital Collectible</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'Brett', 'brett.jpg', '$0.02984'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\toshi.jpg" alt="Toshi">
+      <h3>Toshi</h3>
+      <p class="price">$0.0003517</p>
+      <p class="description" style="display: none;">Toshi is a cryptocurrency that runs on the Base blockchain, which is an Ethereum layer-two blockchain built on the Coinbase crypto exchange.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: Satoshi Nakamoto</li>
+        <li>Market Cap: $28,676,665</li>
+        <li>Decentralized Trading and Swaps</li>
+        <li>Low Fees</li>
+        <li>MEOW DAO</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'Toshi', 'toshi.jpg', '$0.0003517'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\fart.jpg" alt="Fartcoin">
+      <h3>Fartcoin</h3>
+      <p class="price">$2.00</p>
+      <p class="description" style="display: none;">Fartcoin is a humorous meme-inspired cryptocurrency, launched on the Solana blockchain in October 2024.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: Terminal of Truth (ToT), Andy Ayrey</li>
+        <li>Market Cap: $250,727,210</li>
+        <li>Solana Blockchain Technology</li>
+        <li>Token Distribution Mechanism</li>
+        <li>Active Community</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'Fartcoin', 'fart.jpg', '$2.00'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="snek.jpg" alt="Snek">
+      <h3>Snek</h3>
+      <p class="price">$0.003188</p>
+      <p class="description" style="display: none;">Snek is a meme token on the Cardano blockchain, designed for community engagement and adoption through humor and virality.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: Anonymous</li>
+        <li>Market Cap: $2,585,148</li>
+        <li>Deflationary Nature</li>
+        <li>Burning Mechanism</li>
+        <li>Staking</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'Snek', 'snek.jpg', '$0.003188'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\mona.png" alt="Mona">
+      <h3>MonaCoin</h3>
+      <p class="price">$0.2404</p>
+      <p class="description" style="display: none;">MonaCoin is a Japanese-centric cryptocurrency, was created as a hard fork.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: "Mr. Watamabe"</li>
+        <li>Market Cap:  $153,102.63</li>
+        <li>Faster Transaction Times</li>
+        <li>First Cryptocurrency to implement SegWit</li>
+        <li>Dedicated Community</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'MonaCoin', 'mona.png', '$0.2404'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\hoge.jpg" alt="Hoge">
+      <h3>Hoge Finance</h3>
+      <p class="price">$0.00001266</p>
+      <p class="description" style="display: none;">Hoge Finance is a meme token that changes small tax on each transaction to reward its wallet holders.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: Marc-Antoine Belair</li>
+        <li>Market Cap:  $8624.63</li>
+        <li>Community Driven</li>
+        <li>Decentralized Finance (DeFi)</li>
+        <li>ERC-20 Token</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'Hoge Finance', 'hoge.jpg', '$0.00001266'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\pitbull.jpg" alt="Pitbull">
+      <h3>Pitbull</h3>
+      <p class="price">$0.0000000002584</p>
+      <p class="description" style="display: none;">Pitbull is designed as a unique social experiment, enphasizing community development and engagement of token holders.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: Anonymous</li>
+        <li>Market Cap: $112,060.29</li>
+        <li>Community Driven</li>
+        <li>Dog-Themed</li>
+        <li>Binance Smart Chain (BSC)</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'Pitbull', 'pitbull.jpg', '$0.0000000002584'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+
+    <div class="product-card">
+      <img src="Imahe\tigerking.jpg" alt="Tigerking">
+      <h3>Tigerking</h3>
+      <p class="price">$0.0000004079</p>
+      <p class="description" style="display: none;">Tiger King Coin is a vibrant project boasting a community of over 16,000 holders.</p>
+      
+      <ul class="features" style="display: none;">
+        <li>Creator: Joe Exotic</li>
+        <li>Market Cap: $323,790</li>
+        <li>Decentralized Platform</li>
+        <li>Entertainment and Gaming Focus</li>
+        <li>Tiger Conversation</li>
+      </ul>
+
+      <button class="btn">More Info</button>
+      <button class="share-button" onclick="shareProduct(event, 'Tigerking', 'tigerking.jpg', '$0.0000004079'); event.preventDefault(); event.stopImmediatePropagation();">🔗</button>
+    </div>
+    
+  </div>
+
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <span class="close">&times;</span>
+      <h2 id="popup-title"></h2>
+      <img id="popup-image" src="" alt="MemeCoin">
+      <p id="popup-price"></p>
+      <p id="popup-description"></p>
+
+      <ul id="popup-features"></ul>
+    </div>
+  </div>
+
+  <div class="pagination">
+    <a href="WebTechProjpg1allProd.html">1</a>
+    <a href="WebTechProjpg2allProd.html">2</a>
+    <a href="WebTechProjpg3allProd.html">3</a>
+    <a href="WebTechProjpg4allProd.html">4</a>
+    <a href="WebTechProjpg5allProd.html">5</a>
+  </div>
+
+  <script>
+    function shareProduct(event, name, image, price) {
+      event.stopPropagation();
+      const url = window.location.href;
+      const shareText = `Check out this product: ${name} - ${price}. ${url}`;
+      if (navigator.share) {
+        navigator.share({
+          title: name,
+          text: shareText,
+          url: url
+        }).catch(console.error);
+      } else {
+        const tempInput = document.createElement('input');
+        document.body.appendChild(tempInput);
+        tempInput.value = shareText;
+        tempInput.select();
+        document.execCommand('copy');
+        document.body.removeChild(tempInput);
+        alert('Link copied to clipboard');
+      }
+    }
+
+    function sharePopupProduct() {
+      const name = document.getElementById('popup-title').innerText;
+      const price = document.getElementById('popup-price').innerText;
+      const url = window.location.href;
+      const shareText = `Check out this product: ${name} - ${price}. ${url}`;
+      if (navigator.share) {
+        navigator.share({
+          title: name,
+          text: shareText,
+          url: url
+        }).catch(console.error);
+      } else {
+        const tempInput = document.createElement('input');
+        document.body.appendChild(tempInput);
+        tempInput.value = shareText;
+        tempInput.select();
+        document.execCommand('copy');
+        document.body.removeChild(tempInput);
+        alert('Link copied to clipboard');
+      }
+    }
+  </script>
+</body>
+</html>

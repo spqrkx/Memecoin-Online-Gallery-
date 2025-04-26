@@ -1,0 +1,229 @@
+
+body {
+  background-image: url(lpbg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Bungee", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+h2{
+  font-family: "Bungee", serif;
+  font-size: 25px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  background: #111;
+  color: white;
+}
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img{
+  width: 150px;
+}   
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul{
+  list-style: none;
+  display: inline-flex;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-links ul li a{
+  margin: 0 5px;
+  padding: 8px 15px;
+  display: block;
+  color: #f2f2f2;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease;
+  background-color: white;
+  font-size: px;
+}
+.product-card:hover {
+  transform: scale(1.05);
+}
+.product-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.product-card h3 {
+  font-size: 16px;
+  margin: 10px 0;
+  font-family: Arial;
+}
+.product-card p {
+  color: #888;
+  font-size: 14px;
+}
+.product-card button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.product-card button:hover {
+  background-color: #555;
+}
+.pagination {
+  text-align: center;
+  padding: 20px 0;
+}
+.pagination a {
+  margin: 0 5px;
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+}
+.pagination a:hover {
+  background-color: #555;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    background-color: #555;
+}
+.popup {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 280px;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 500px;
+  max-width: 80%;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  color: white;
+  font-size: 10px;
+}
+
+.popup-content img {
+  width: 70%;
+  border-radius: 10px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
+#popup-features {
+  list-style-type: disc;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 1.6;
+  text-align: left;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+#popup-features li {
+  font-size: 13px;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+}
+.merriweather-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.merriweather-light-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.merriweather-regular-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.merriweather-bold-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.merriweather-black-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+}
